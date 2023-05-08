@@ -1,0 +1,10 @@
+.homeService-tile {
+   @apply text-[2.5rem] font-bold text-center text-textp;
+   @screen laptop {
+      font-size: calc(4rem * var(--scale));
+   }
+}
+
+.container-card {
+   @apply flex flex-wrap gap-20 justify-center mt-4 mb-20;
+}

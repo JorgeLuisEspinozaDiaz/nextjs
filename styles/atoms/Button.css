@@ -1,0 +1,24 @@
+.btn {
+   @apply flex w-[16.2rem] h-[4.5rem] gap-[0.3rem]  cursor-pointer transition-all duration-1000 ease-in;
+}
+.span {
+   @apply h-[4.5rem] w-[0.3rem] bg-[#6B4938];
+}
+.btns {
+   @apply w-[15.7rem] h-[4.5rem] bg-withes;
+}
+
+.btn-span {
+   @apply text-[1.8rem]  text-blacks font-medium hover:text-withes;
+}
+.btn:hover .span {
+   @apply bg-green;
+}
+
+.btn:hover .btn-span {
+   @apply text-withes;
+}
+
+.btn:hover .btns {
+   @apply bg-green;
+}

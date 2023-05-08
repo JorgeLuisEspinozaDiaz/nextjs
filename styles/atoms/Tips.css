@@ -1,0 +1,6 @@
+.tips {
+   @apply w-[5.861rem] h-[2.56rem] bg-green flex justify-center items-center;
+}
+.tips-text {
+   @apply text-withes uppercase;
+}

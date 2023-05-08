@@ -1,0 +1,24 @@
+.cardProjects {
+  @apply h-[34.983rem] relative flex justify-center cursor-pointer;
+  transition: 0.5s ease-in-out;
+}
+.cardProjects:hover .cardProjects-conte {
+  visibility: visible;
+}
+
+.cardProjects-conte {
+  @apply absolute   flex items-end justify-between  w-full h-full px-10 pb-10;
+  background: rgba(96, 96, 96, 0.7);
+  mix-blend-mode: multiply;
+  visibility: hidden;
+}
+.cardProjects-title {
+  @apply text-[1.6rem] font-semibold text-withes;
+  transition: 0.5s all ease-in;
+}
+.cardProjects-subtitle {
+  @apply text-[1.4rem] font-normal text-withes;
+}
+.cardProjects-glass {
+  @apply w-[4.089rem] h-[4.089rem] rounded-full bg-green flex items-center justify-center;
+}

@@ -1,0 +1,22 @@
+.homeProject {
+  @apply bg-crem;
+}
+.homeProject-title {
+  @apply font-bold text-[2.5rem] text-blacks text-center;
+}
+
+.HomeGallery-arrow {
+  @apply rounded-full bg-white text-primary absolute cursor-pointer z-40;
+  width: 3rem;
+  height: 3rem;
+  top: 50%;
+}
+/* .HomeBanner__btn__next {
+  @apply w-5 h-4 bg-black  m-4 left-0 absolute;
+  right: -2rem;
+}
+.HomeBanner__btn__prev {
+  @apply w-[6rem] h-4 bg-black z-40 m-4 absolute top-0;
+  transform: translateY(-50%) rotate(180deg);
+  left: -2rem;
+} */

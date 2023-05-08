@@ -1,0 +1,63 @@
+.icon-facebook {
+   @apply text-[2.256rem] text-white;
+}
+.icon-instagram {
+   @apply text-[2.256rem] text-white;
+}
+
+.icon-menu {
+   @apply text-[2.439rem] text-blacks;
+}
+
+.navbar {
+   @apply w-full h-[6rem] bg-blacks flex justify-between fixed;
+}
+.navbar-icons {
+   @apply flex justify-center items-center gap-x-6;
+}
+
+.navbar-menu {
+   @apply w-[5.45rem] h-[6rem] bg-white flex justify-center items-center;
+}
+
+.liNav {
+   @apply h-[3.2rem] px-10;
+   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.nav-a {
+   @apply text-[1.7rem]   font-normal;
+}
+
+.nav-icons {
+   @apply flex justify-center items-center gap-x-8;
+}
+.nav-menu {
+   @apply mr-9 w-[2.75rem] h-[2.75rem];
+}
+
+.nav-ul {
+   @apply grid  bg-browns w-[100%] h-[270px]  text-white rounded-b-[10px] items-center;
+}
+
+.nav-container {
+   @apply flex justify-between    h-[6rem];
+   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.nav-fb {
+}
+.nav {
+   @apply w-full h-[29.8rem] bg-browns;
+   position: fixed;
+   top: 0;
+   left: 0;
+   overflow: hidden;
+   transform: translateY(-101%);
+   transition: transform 0.3s ease;
+   border-radius: 0px 0px 15px 15px;
+   height: 29.8rem;
+}
+
+.nav.isActive {
+   transform: translateY(0);
+}

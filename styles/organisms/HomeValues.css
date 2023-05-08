@@ -1,0 +1,48 @@
+.homeValues {
+  @apply my-10 flex flex-col gap-10;
+  @media screen(laptop) {
+    @apply grid grid-cols-2 gap-40;
+  }
+}
+.homeValues-Text {
+  @apply w-[auto] h-[auto] bg-withes  flex gap-3;
+}
+.homeValues-line {
+  @apply w-[0.5rem] h-[auto] bg-lightgreen rounded-[2.662rem];
+}
+.homeValues-title {
+  @apply text-[2.5rem] leading-[2.9rem] font-extrabold text-blacks;
+  @media screen(laptop) {
+    font-size: calc(3.5rem * var(--scale));
+  }
+}
+.homeValues-subtitle {
+  @apply text-[2.5rem] leading-[2.9rem] font-semibold text-blacks;
+  @media screen(laptop) {
+    font-size: calc(3.5rem * var(--scale));
+  }
+}
+.homeValues-paragraph {
+  @apply text-[1.5rem]   text-textp font-light;
+  @media screen(laptop) {
+    font-size: calc(1.9rem * var(--scale));
+  }
+}
+
+.swiper-wrapper {
+  gap: 0;
+}
+
+.HomeCharac-pagination {
+  @apply flex justify-center items-center gap-4 my-[2rem] cursor-pointer;
+  @screen laptop {
+    display: none;
+  }
+}
+.swiper-pagination-bullet {
+  @apply w-[1rem] h-[1rem]  rounded-full;
+  background: rgba(164, 124, 104, 0.4);
+}
+.swiper-pagination-bullet-active {
+  @apply w-[1rem] h-[1rem]  bg-brown;
+}

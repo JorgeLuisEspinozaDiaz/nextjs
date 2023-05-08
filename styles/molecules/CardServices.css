@@ -1,0 +1,62 @@
+.cardServices {
+   @apply w-[37.6rem] h-[59.013rem] bg-[#FAFAFA] relative flex justify-center;
+   @screen laptop {
+      width: calc(63.3rem * var(--scale));
+      height: calc(78.9rem * var(--scale));
+   }
+}
+.cardServices-header {
+   @apply w-full h-[18.5rem];
+   @screen laptop {
+      height: calc(31.3rem * var(--scale));
+   }
+}
+
+.cardServices-conta {
+   @apply w-[33.2rem] h-[43.5rem] bg-withes absolute bottom-0;
+   @screen laptop {
+      width: calc(56.2rem * var(--scale));
+      height: calc(52.7rem * var(--scale));
+   }
+}
+.cardServices-contaImg {
+   @apply w-[5.31rem] h-[5.31rem] bg-browns absolute -top-10 left-10 p-4;
+   @screen laptop {
+      width: calc(9rem * var(--scale));
+      height: calc(9rem * var(--scale));
+   }
+}
+.cardServices-ConteTex {
+   @apply flex  flex-col gap-2 px-[2.5rem];
+   padding-top: 5rem;
+   @screen laptop {
+      padding-top: calc(9rem * var(--scale));
+      @apply px-[2.5rem];
+   }
+}
+.cardServices-title {
+   @apply font-semibold  text-[1.6rem] text-blacks;
+   @screen laptop {
+      font-size: calc(2.5rem * var(--scale));
+   }
+}
+.cardServices-subtitle {
+   @apply font-light  text-[1.5rem] leading-[2.4rem] text-textp;
+   @screen laptop {
+      font-size: calc(1.9rem * var(--scale));
+      line-height: calc(3.04rem * var(--scale));
+   }
+}
+.cardServices-btn {
+   @apply pt-[2rem];
+   @screen laptop {
+      padding-top: calc(3.7rem * var(--scale));
+   }
+}
+
+.cardServices-line {
+   @apply w-full h-[0.413rem] bg-green absolute bottom-0;
+   @screen laptop {
+      font-size: calc(0.7rem * var(--scale));
+   }
+}
